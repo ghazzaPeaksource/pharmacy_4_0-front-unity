@@ -1,0 +1,22 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.* filter=lfs diff=lfs merge=lfs -text
+size-threshold=3G filter=lfs diff=lfs merge=lfs -text
+Assembly-CSharp-Editor-firstpass.csproj filter=lfs diff=lfs merge=lfs -text
+SANOFI_IsometricPharmacy[[:space:]]-[[:space:]]offline.Editor.csproj filter=lfs diff=lfs merge=lfs -text
+Unity.TextMeshPro.csproj filter=lfs diff=lfs merge=lfs -text
+Unity.TextMeshPro.Editor.csproj filter=lfs diff=lfs merge=lfs -text
+AstarPathfindingProject.csproj filter=lfs diff=lfs merge=lfs -text
+SANOFI_IsometricPharmacy[[:space:]]-[[:space:]]offline.csproj filter=lfs diff=lfs merge=lfs -text
+SANOFI_IsometricPharmacy[[:space:]]-[[:space:]]offline.sln filter=lfs diff=lfs merge=lfs -text
+lfs-size-threshold=100M filter=lfs diff=lfs merge=lfs -text
+Assembly-CSharp.csproj filter=lfs diff=lfs merge=lfs -text
+AstarPathfindingProjectEditor.csproj filter=lfs diff=lfs merge=lfs -text
+PackageToolsEditor.csproj filter=lfs diff=lfs merge=lfs -text
+Unity.Analytics.DataPrivacy.csproj filter=lfs diff=lfs merge=lfs -text
+Assembly-CSharp-Editor.csproj filter=lfs diff=lfs merge=lfs -text
+README.md filter=lfs diff=lfs merge=lfs -text
+SANOFI_IsometricPharmacy.sln filter=lfs diff=lfs merge=lfs -text
+Unity.CollabProxy.Editor.csproj filter=lfs diff=lfs merge=lfs -text
+lfs-size-threshold filter=lfs diff=lfs merge=lfs -text
+Assets/Firebase/Plugins/x86_64/FirebaseCppApp-7_0_1.so filter=lfs diff=lfs merge=lfs -text
